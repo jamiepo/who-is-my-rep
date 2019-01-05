@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,13 +9,21 @@
 
 <?php
 
-file_get_contents('https://whoismyrepresentative.com/getall_mems.php?zip=&output=json'.$_GET['zip'].'php?zip=&output=json');
-
-
-/*echo $_GET["https://whoismyrepresentative.com/getall_mems.php?zip=&output=json"];*/
-
+$json_rep = file_get_contents('https://whoismyrepresentative.com/getall_mems.php?zip='.$_GET['zip'].'&output=json');
+$rep_array = json_decode($json_rep);
+var_dump($rep_array);
 
 ?>
+
+
+
+
+
+
+
+ 
+
+
 
 </body>
 </html>
