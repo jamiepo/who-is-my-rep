@@ -24,7 +24,7 @@
     <hr style="margin:auto;width:40%;border-color:#2d3436;"> 
 
 	<section class="form-one">
-		<form action="search-results.php" method="post">
+		<form action="search-results.php" method="get">
 		<label for="zipcode"> Input Zipcode</label>
 
 		
@@ -41,7 +41,10 @@
  
 
   <footer>
-    &#169;	 Jamie Powell 2018 using <a href="https://whoismyrepresentative.com/api"> Who is my Representative API</a>
+
+  	<P> <a href="https://whoismyrepresentative.com/api"> Who is my Representative API</a></P>
+    &#169;	 Jamie Powell 2018 
+
   </footer>
 
 
