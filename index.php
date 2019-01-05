@@ -41,7 +41,7 @@
  
 
   <footer>
-    &#169;	 Jamie Powell 2018 
+    &#169;	 Jamie Powell 2018 using <a href="https://whoismyrepresentative.com/api"> Who is my Representative API</a>
   </footer>
 
 
